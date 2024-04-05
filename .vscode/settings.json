@@ -1,5 +1,9 @@
 {
-    "workbench.colorCustomizations": {
-        "tab.activeBorderTop": "#FA9E9E"
-    }
+    "workbench.colorCustomizations": {},
+    "folder-color.pathColors": [
+        {
+            "folderPath": "blender_scripts\\src\\blender_gltf_thumbnail_producer.py\\",
+            "color": "foldercolorizer.White"
+        }
+    ]
 }
