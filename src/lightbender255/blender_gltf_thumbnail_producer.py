@@ -51,9 +51,7 @@ camera.location = (0,0,10)
 # Set the active camera for the scene
 bpy.context.scene.camera = camera
 
-bpy.ops.mesh.primitive_cube_add(size=2)
-cube = bpy.context.object
-cube.location = (3,0,1)
+add_cube((0,0,0))
 scene = bpy.context.scene
 scene.render.filepath = "output"
 scene.render.resolution_x = 1920
